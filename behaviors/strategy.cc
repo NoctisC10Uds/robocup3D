@@ -187,7 +187,7 @@ SkillType NaoBehavior::gogogo()
                 {
                     if (Posball.getDistanceTo(target[2]) > 3 && Posball.getDistanceTo(target[3]) > 3)
                     {
-                        if (me.getX() >= -15 && me.getX() < -15 + 1.8 && (me.getY() > -3 || me.getY() < -3))
+                        if (me.getX() >= -15 && me.getX() < -15 + 1.8 && (me.getY() > -3 || me.getY() < 3))
                         {
                             return kickBall(KICK_FORWARD, closestmatePos);
                         }
